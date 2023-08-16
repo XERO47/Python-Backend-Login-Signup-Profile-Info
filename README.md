@@ -13,4 +13,5 @@ This repository contains a production-ready Python backend built using FastAPI. 
 - Protected Routes: Certain routes are protected and require a valid JWT token to access.
 - Profile Information: Authenticated users can fetch their profile information.
 
+The code used MogoDB as the database & searches for a redis client over the network and connects it directly just turn on the redis client, you can update all the variables in .env file.
 All Endpoints can be find within the main.py file, and you can start the app by uvicorn
